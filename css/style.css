@@ -230,7 +230,6 @@ form {
 }
 
 .filter__button {
-    position: relative;
     display: flex;
     align-items: center;
     height: 48px;
@@ -265,12 +264,17 @@ form {
     .filters {
         flex-direction: column;
         align-items: flex-start;
-        gap: 16px;
+        margin-left: 0px
     }
-
 }
 
 @media screen and (max-width: 767px) {
+
+    .filters {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 0px
+    }
 
     .section__search {
         padding-left: 15px;
